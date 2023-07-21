@@ -1,0 +1,38 @@
+[
+    {
+      "label": "greetings",
+      "examples": [
+        { "text": "Hi!" },
+        { "text": "Hello there." },
+        { "text": "Good morning." },
+        { "text": "What is up?." },
+        { "text": "ssup?." }
+      ]
+    },
+    {
+      "label": "goodbye",
+      "examples": [
+        { "text": "Goodbye!" },
+        { "text": "See you later." },
+        { "text": "Take care." }
+      ]
+    },
+    {
+      "label": "restaurant_recommender",
+      "examples": [
+        { "text": "Can you recommend a good restaurant?" },
+        { "text": "I'm looking for a place to eat." },
+        { "text": "Any restaurant suggestions?" }
+      ]
+    },
+    {
+      "label": "weather",
+      "examples": [
+        { "text": "What's the weather like today?" },
+        { "text": "Will it rain tomorrow?" },
+        { "text": "Tell me the current temperature." }
+      ]
+    }
+  ]
+  
+  

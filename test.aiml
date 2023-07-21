@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>HELLO</pattern>
+    <template>
+      <random>
+        <li>Hi there!</li>
+        <li>Hello, how can I help you?</li>
+        <li>Greetings!</li>
+        <li>Hi , nice to meet you!</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>GreetingResponse</pattern>
+    <template>
+      <random>
+        <li>Great! Hi! How can I help?</li>
+        <li>Good! Hi, how can I help you?</li>
+        <li>Cool! Hello, what can I do for you?</li>
+        <li>OK! Hola, how can I help you?</li>
+        <li>OK! hi, what can I do for you?</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>CourtesyGreeting</pattern>
+    <template>
+      <random>
+        <li>Hello, I am great, how are you?</li>
+        <li>Hello, how are you? I am great thanks!</li>
+        <li>Hello, I am good thank you, how are you?</li>
+        <li>Hi, I am great, how are you?</li>
+        <li>Hi, good thank you, how are you?</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>CurrentHumanQuery</pattern>
+    <template>
+      <random>
+        <li>You are a HUMAN! How can I help?</li>
+        <li>They call your species HUMAN, what can I do for you?</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>CourtesyGreetingResponse</pattern>
+    <template>
+      <random>
+        <li>Great! How can I help?</li>
+        <li>Cool! Hello, what can I do for you?</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>GreetingResponse *</pattern>
+    <template>
+      <random>
+        <li>Great! Hi <star/>! How can I help?</li>
+        <li>Good! Hi <star/>, how can I help you?</li>
+        <li>Cool! Hello <star/>, what can I do for you?</li>
+        <li>OK! Hola <star/>, how can I help you?</li>
+        <li>OK! hi <star/>, what can I do for you?</li>
+      </random>
+    </template>
+  </category>
+  <category>
+  <category>
+    <pattern>recommend</pattern>
+    <template>Sure. What do you wish to have (Beverage,Meals,Maggi,fast-food,sandwich) ?</template>
+  </category>
+  <category>
+    <pattern>meals</pattern>
+    <template>What is your preferred average cost of a meal (cheap, expensive)? </template>
+  </category>
+  <category>
+    <pattern>maggi</pattern>
+    <template>What is your preferred average cost of a meal (cheap, expensive)? </template>
+  </category>
+  <category>
+    <pattern>beverage</pattern>
+    <template>What is your preferred average cost of a meal (cheap, expensive)? </template>
+  </category>
+  <category>
+    <pattern>fast-food</pattern>
+    <template>What is your preferred average cost of a meal (cheap, expensive)? </template>
+  </category>
+  <category>
+    <pattern>sandwich</pattern>
+    <template>What is your preferred average cost of a meal (cheap, expensive)? </template>
+  </category>
+  <category>
+    <pattern>cheap</pattern>
+    <template>Do you want us to recommend multiple outlets or just one (multiple,one)?</template>
+  </category>
+  <category>
+    <pattern>expensive</pattern>
+    <template>Do you want us to recommend multiple outlets or just one (multiple,one)?</template>
+  </category>
+  <category>
+    <pattern>Vegetarian</pattern>
+    <template>What do you wish to do (takeaway or sit-down) ?</template>
+  </category>
+  <category>
+    <pattern>Non-Vegetarian</pattern>
+    <template>What do you wish to do (takeaway or sit-down) ?</template>
+  </category>
+  <category>
+    <pattern>Mess-1</pattern>
+    <template>What kind of food do you prefer (Vegetarian, Non-Vegetarian) ?</template>
+  </category>
+  <category>
+    <pattern>Mess-2</pattern>
+    <template>What kind of food do you prefer (Vegetarian, Non-Vegetarian) ?</template>
+  </category>
+  <category>
+    <pattern>multiple</pattern>
+    <template>What kind of food do you prefer (Vegetarian, Non-Vegetarian) ?</template>
+  </category>
+  <category>
+    <pattern>academic-blocks</pattern>
+    <template>What kind of food do you prefer (Vegetarian, Non-Vegetarian) ?</template>
+  </category>
+  <category>
+    <pattern>one</pattern>
+    <template>Where are you currently? - near (Mess-1, near Mess-2, academic-blocks)</template>
+  </category>
+  
+</aiml>
